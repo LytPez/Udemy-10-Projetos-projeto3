@@ -1,3 +1,12 @@
+/*
+função que calcula o IMC de uma pessoa, e avalia sua condição atual.
+*/
+/*
+ esta função pega o peso, e a altura do individuo, faz o calculo do imc: peso/(altura^2), e conforme o resultado, informa a condição do idividuo; Abaixo do peso, Peso normal, Excesso de peso, Obesidade
+*/
+
+
+
 function calcular(){
   let peso = document.getElementById('peso').value
   let altura = document.getElementById('altura').value
